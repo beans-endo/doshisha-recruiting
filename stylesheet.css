@@ -238,14 +238,16 @@ nav {
 
 @media(max-width:350px) {
   .prof-image-left {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     padding-left: initial;
+    margin-top: 0px;
   }
   .prof-image-right {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     padding-right: initial;
+    margin-top: 0px;
   }
   .member-name{
     display: block;
@@ -257,7 +259,9 @@ nav {
     display: initial;
     flex-direction: initial;
     justify-content: initial;
-    padding-top: 50px;
+    padding-top: 10px;
+    margin-top: 10px
+    margin-bottom20px;
   }
   .name {
     font-size: initial;
@@ -290,4 +294,13 @@ footer {
   background-color: #000;
   font-size: 15px;
   color: #fff
+}
+
+@media(max-width:350px) {
+  footer{
+    height: 70px;
+  }
+  .My-Name {
+    align-items: center;
+  }
 }
