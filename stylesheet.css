@@ -116,8 +116,21 @@ nav {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.info-title {
+  font-size: 60px;
+  font-family: serif;
+  margin-bottom: 50px;
+  color: #444;
+  border-bottom:5px solid #4d4d4d;
+  padding-bottom: 20px;
+}
 
-@media(max-width:1000px){
+#second-block img{
+  width: 50%;
+  border-radius: 40px;
+}
+
+@media(max-width:800px){
   #second-block p{
     font-size: 30px;
   }
@@ -125,11 +138,17 @@ nav {
 }
 
 @media(max-width:500px){
+  #second-block img{
+    width:80%;
+  }
   #second-block {
     font-size: 14px;
   }
   #second-block p{
     font-size: 30px;
+  }
+  .info-title{
+    margin-bottom: 15px
   }
 }
 
@@ -140,14 +159,6 @@ nav {
   align-items: center;
 }
 
-.info-title {
-  font-size: 60px;
-  font-family: serif;
-  margin-bottom: 50px;
-  color: #444;
-  border-bottom:5px solid #4d4d4d;
-  padding-bottom: 20px;
-}
 
 .info-text {
   font-size: 20px;
