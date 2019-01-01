@@ -87,14 +87,14 @@ nav {
   z-index: 4;
 }
 
-@media(max-width:350px) {
+@media(max-width:500px) {
   .message-contents {
-    font-size:5px;
+    font-size:3px;
   }
   .form-bottom{
     font-size:15px;
-    width:160px;
-    height:30px;
+    width:93px;
+    height:17px;
   }
 }
 
@@ -113,9 +113,12 @@ nav {
 
 }
 
-@media(max-width:350px){
+@media(max-width:500px){
   #second-block {
-    font-size: 5px;
+    font-size: 3px;
+  }
+  .info-title{
+    font-size: 20px;
   }
 }
 
@@ -129,10 +132,10 @@ nav {
 .info-title {
   font-size: 60px;
   font-family: serif;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   color: #444;
   border-bottom:5px solid #4d4d4d;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .info-text {
@@ -251,7 +254,7 @@ nav {
   }
 }
 
-@media(max-width:350px) {
+@media(max-width:500px) {
   .prof-image-left {
     width: 50%;
     height: 50%;
@@ -280,11 +283,14 @@ nav {
   }
   .name {
     font-size: initial;
-    font-size: 10px;
+    font-size: 3px;
   }
   .member-name {
     font-size: initial;
-    font-size: 5px;
+    font-size: 3px;
+  }
+  .member-title{
+    font-size: 20px;
   }
 }
 
