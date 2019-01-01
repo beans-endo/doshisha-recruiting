@@ -88,13 +88,17 @@ nav {
 }
 
 @media(max-width:500px) {
+  #first-blpck{
+    height: 500px;
+  }
+
   .message-contents {
     font-size:3px;
   }
   .form-bottom{
     font-size:15px;
-    width:93px;
-    height:17px;
+    width:100px;
+    height:20px;
   }
 }
 
@@ -117,7 +121,7 @@ nav {
   #second-block {
     font-size: 3px;
   }
-  .info-title{
+  #second-block p{
     font-size: 20px;
   }
 }
