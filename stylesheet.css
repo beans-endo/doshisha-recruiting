@@ -87,6 +87,17 @@ nav {
   z-index: 4;
 }
 
+@media(max-width:350px) {
+  .message-contents {
+    font-size:5px;
+  }
+  .form-bottom{
+    font-size:15px;
+    width:160px;
+    height:30px;
+  }
+}
+
 /*   Second block   */
 #second-block {
   background-color: #f0f0f0;
@@ -97,11 +108,15 @@ nav {
 
 @media(max-width:1000px){
   #second-block p{
-    font-size: 40px;
+    font-size: 30px;
   }
 
 }
 
+@media(max-width:350px){
+  #second-block {
+    font-size: 5px;
+  }
 }
 
 .about-container {
@@ -227,7 +242,7 @@ nav {
     margin-bottom: 15px;
   }
   .member-title {
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: initial;
     margin-bottom: initial;
     padding-bottom: 10px;
@@ -261,15 +276,15 @@ nav {
     justify-content: initial;
     padding-top: 10px;
     margin-top: 10px
-    margin-bottom20px;
+    margin-bottom:20px;
   }
   .name {
     font-size: initial;
-    font-size: 20px;
+    font-size: 10px;
   }
   .member-name {
     font-size: initial;
-    font-size: 10px;
+    font-size: 5px;
   }
 }
 
