@@ -96,7 +96,7 @@ nav {
     font-size:8px;
   }
   .form-bottom{
-    font-size:15px;
+    font-size:17px;
     width:160px;
     height:28px;
   }
@@ -338,4 +338,5 @@ footer {
 
 .second-form{
   background-color:#00004d;
+  margin-top: 30px;
 }
