@@ -89,16 +89,16 @@ nav {
 
 @media(max-width:500px) {
   #first-blpck{
-    height: 500px;
+    height: 400px;
   }
 
   .message-contents {
-    font-size:10px;
+    font-size:8px;
   }
   .form-bottom{
     font-size:20px;
-    width:100px;
-    height:30px;
+    width:120px;
+    height:40px;
   }
 }
 
@@ -276,6 +276,8 @@ nav {
     margin: 0 auto;
     width:initial;
     width:90%;
+    font-size: initial;
+    font-size: 10px;
   }
   .member{
     display: initial;
@@ -289,10 +291,7 @@ nav {
     font-size: initial;
     font-size: 15px;
   }
-  .member-name {
-    font-size: initial;
-    font-size: 10px;
-  }
+
   .member-title{
     font-size: 30px;
   }
