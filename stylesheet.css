@@ -89,17 +89,24 @@ nav {
 
 @media(max-width:500px) {
   #first-block{
-    height: 500px;
+    height: 650px;
   }
 
   .message-contents {
     font-size:8px;
   }
   .form-bottom{
-    font-size:20px;
-    width:180px;
-    height:40px;
+    font-size:15px;
+    width:160px;
+    height:28px;
   }
+  .form-bottom{
+    box-shadow:0px 5px #333333;
+  }
+  .form-bottom:active{
+    top: 5px;
+  }
+
 }
 
 /*   Second block   */
