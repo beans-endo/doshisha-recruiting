@@ -20,10 +20,6 @@ nav {
 }
 
 
-.message-wrapper{
-  margin: 0 auto;
-}
-
 .form-bottom {
   font-size: 30px;
   font-weight: normal;
@@ -49,6 +45,35 @@ nav {
   top: 10px;
 }
 
+.form {
+  align:center;
+}
+
+.message-contents {
+  width:100%;
+  text-align: center;
+  margin: 0 auto;
+  height:100%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.message-contents2{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.message-title{
+  font-size:60px;
+  font-weight: bold;
+}
+
+.message-time {
+  font-size:40px;
+}
+
+.message-description{
+  font-size: 25px;
 }
 
 @media(max-width:800px) {
@@ -88,6 +113,21 @@ nav {
 }
 
 @media(max-width:500px) {
+  .message-contents2{
+    width: 80%;
+  }
+  .message-contents{
+    margin: 0 auto;
+  }
+  .message-title{
+    font-size: 25px
+  }
+  .message-time{
+    font-size: 18px;
+  }
+  .message-description{
+    font-size: 14px;
+  }
   #first-block{
     height: 650px;
   }
@@ -130,6 +170,15 @@ nav {
   border-radius: 40px;
 }
 
+.event-contents{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.event-contents li {
+  margin-top: 10px;
+}
+
 @media(max-width:800px){
   #second-block p{
     font-size: 30px;
@@ -138,6 +187,12 @@ nav {
 }
 
 @media(max-width:500px){
+  .event-contents li {
+    margin-top: 4px;
+  }
+  .event-contents{
+    font-size: 16px;
+  }
   #second-block img{
     width:80%;
   }
