@@ -171,12 +171,15 @@ nav {
 #second-block img{
   width: 50%;
   border-radius: 40px;
+
 }
 
 .event-contents{
   font-size: 25px;
   margin-bottom: 30px;
-  width: 85%:
+  width: 85%;
+  display: inline-block;
+  text-align: center;
 }
 
 .event-contents li {
@@ -410,4 +413,3 @@ footer {
   background-color:#00004d;
   margin-top: 30px;
 }
-
